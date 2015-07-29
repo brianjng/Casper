@@ -1217,10 +1217,18 @@ body:not(.post-template) .post-title {
     min-height: 180px;
 }
 
+.post-head > .main-nav {
+    margin: 0;
+}
+
+.post-head .blog-logo img {
+    height: 80px;
+}
+
 .no-cover.post-head.main-header {
     height: 85px;
     min-height: 0;
-    margin-bottom: 0;
+    margin-bottom: 40px;
     /* background: transparent; */
 }
 
