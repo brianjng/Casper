@@ -506,9 +506,20 @@ body.nav-opened .site-wrapper {
     height: 100vh;
     margin-bottom: 5rem;
     text-align: center;
-    background: #222 no-repeat center center;
+    background: rgba(167, 30, 60, 1);
+    background: -moz-linear-gradient(-30deg, rgba(167,30,60,1) 0%, rgba(176,80,56,1) 60%, rgba(167,30,60,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(167,30,60,1)), color-stop(60%, rgba(176,80,56,1)), color-stop(100%, rgba(167,30,60,1)));
+    background: -webkit-linear-gradient(-30deg, rgba(167,30,60,1) 0%, rgba(176,80,56,1) 60%, rgba(167,30,60,1) 100%);
+    background: -o-linear-gradient(-30deg, rgba(167,30,60,1) 0%, rgba(176,80,56,1) 60%, rgba(167,30,60,1) 100%);
+    background: -ms-linear-gradient(-30deg, rgba(167,30,60,1) 0%, rgba(176,80,56,1) 60%, rgba(167,30,60,1) 100%);
+    background: linear-gradient(150deg, rgba(167,30,60,1) 0%, rgba(176,80,56,1) 60%, rgba(167,30,60,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a71e3c', endColorstr='#a71e3c', GradientType=1 );
     background-size: cover;
     overflow: hidden;
+}
+
+.main-header-image img {
+    width: 200px;
 }
 
 .main-header .inner {
