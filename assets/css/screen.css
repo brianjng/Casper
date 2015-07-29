@@ -486,9 +486,9 @@ margin on the iframe, cause it breaks stuff. */
 
 body.nav-opened .site-wrapper {
     overflow-x: hidden;
-    -webkit-transform: translate3D(-240px, 0, 0);
-        -ms-transform: translate3D(-240px, 0, 0);
-            transform: translate3D(-240px, 0, 0);
+    -webkit-transform: translate3D(-360px, 0, 0);
+        -ms-transform: translate3D(-360px, 0, 0);
+            transform: translate3D(-360px, 0, 0);
     -webkit-transition: -webkit-transform 0.3s ease;
             transition: transform 0.3s ease;
 }
@@ -542,7 +542,7 @@ body.nav-opened .nav-cover {
     position: fixed;
     top: 0;
     left: 0;
-    right: 240px;
+    right: 360px;
     bottom: 0;
     z-index: 200;
 }
@@ -553,7 +553,7 @@ body.nav-opened .nav-cover {
     right: 0;
     bottom: 0;
     z-index: 5;
-    width: 240px;
+    width: 360px;
     opacity: 0;
     background: #111;
     margin-bottom: 0;
